@@ -48,6 +48,41 @@ Tech Stack
 | Pydantic   | Data validation |
 | Uvicorn    | ASGI server |
 
+fastapi-car-rental-system/
+│
+├── main.py # Main application file
+├── requirements.txt # Dependencies
+├── README.md # Project documentation
+└── screenshots/ # Swagger API screenshots
+
+ 📸 API Testing
+
+All endpoints have been tested using **Swagger UI**.
+
+Screenshots are included in the `screenshots/` folder:
+
+
+🔄 API Workflow Example
+
+1. Add a customer  
+2. Browse available cars  
+3. Create booking  
+4. Pickup car  
+5. Return car  
+6. Calculate total cost  
+
+⚠️ Important Notes
+
+- Fixed routes are defined before dynamic routes (important in FastAPI)
+- In-memory data storage is used (no database)
+- All endpoints return proper HTTP status codes (200, 201, 404, etc.)
+
+🎯 Learning Outcomes
+- Built real-world REST APIs using FastAPI  
+- Implemented data validation using Pydantic  
+- Designed multi-step workflows  
+- Applied search, sorting, and pagination  
+- Improved debugging and backend structuring skills  
 
 
 
